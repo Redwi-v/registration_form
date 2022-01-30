@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<title>RegForm</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="login">
+				<div class="login__block" id="regBlock">
+					<div class="login__item">
+						<h2 class="login__title">уже есть аккаунт</h2>
+						<button class="login__btn" id="signIn">войти</button>
+					</div>
+					<div class="login__item">
+						<h2 class="login__title">создать аккаунт</h2>
+						<button class="login__btn" id="signUp">регистрация</button>
+					</div>
+				</div>
+
+				<div class="login__forms-wraper" id="forms_wraper">
+					<form class="login__form form-singin form">
+						<h2 class="form__title color-green">Вход</h2>
+						<input class="form__login form__input" type="text" placeholder="Логин" />
+						<input
+							class="form__possword form__input"
+							type="password"
+							placeholder="Пароль"
+						/>
+						<button class="form__sendform-btn green-bg" type="submit">Вход</button>
+						<a class="form__recover" href="#">востоновить пароль</a>
+					</form>
+					<form class="login__form reg-form form">
+						<h2 class="form__title color-orange">Регистрация</h2>
+						<input class="form__login form__input" type="text" placeholder="Логин" />
+						<input class="form__login form__input" type="email" placeholder="Email" />
+						<input
+							class="form__possword form__input"
+							type="password"
+							placeholder="Пароль"
+						/>
+						<input
+							class="form__possword form__input"
+							type="password"
+							placeholder="Повторите пароль"
+						/>
+						<button class="form__sendform-btn orange-bg" type="submit">
+							Регистрация
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<script src="./index.js"></script>
+	</body>
+</html>
