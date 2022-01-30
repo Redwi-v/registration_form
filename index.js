@@ -16,7 +16,3 @@ signUpBtn.addEventListener('click', () => {
 });
 
 // form
-class from {
-	constructor() {}
-	sendData() {}
-}
